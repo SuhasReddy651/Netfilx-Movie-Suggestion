@@ -78,4 +78,4 @@ def full_screen(image_index):
     return render_template('full_screen.html', image=image_url)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
